@@ -1,0 +1,11 @@
+<samlp:AuthnRequest 
+	xmlns="urn:oasis:names:tc:SAML:2.0:metadata" 
+	ID="F84D888AA3B44C1B844375A4E8210D9E"
+	Version="2.0" 
+	IssueInstant="2022-08-22T18:08:57.956Z"
+	IsPassive="false" 
+	AssertionConsumerServiceURL="https://app-saml-demo.azurewebsites.net/saml-acs/"
+	xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol"
+	ForceAuthn="false">
+	<Issuer xmlns="urn:oasis:names:tc:SAML:2.0:assertion">https://app-saml-demo.azurewebsites.net/</Issuer>
+</samlp:AuthnRequest>
